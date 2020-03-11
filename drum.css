@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Yatra+One);
+body {
+  font-family: Yatra One;
+  /*background-image: url("https://www.monoimages.com/wp-content/uploads/2018/07/monoimages04-138.jpg"); */
+  /*background-image: url("http://mediafactory.audencia.com/wp-content/uploads/2016/10/party-people-rocking-hands-up-picjumbo-com-iloveimg-compressed-iloveimg-compressed.jpg");*/
+  background-image: url("https://respect-mag.com/wp-content/uploads/2018/03/0I2A0904.jpg");
+  background-position: center;
+
+}
+
+#drum-machine {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#title {
+  font-size: 50px;
+  margin-bottom: 10px;
+  color: white;
+  text-shadow: 1px 1px black;
+  text-shadow: 2px 2px black;
+}
+#display {
+  font-size: 25px;
+  color: white;
+  text-shadow: 1px 1px black;
+  text-shadow: 2px 2px black;
+}
+#drums {
+  width: 700px;
+}
+.drumKit {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.drum-pad {
+  background-color: white;
+  opacity: 0.85;
+  /*border: 1px solid black;*/
+  padding: 10px;
+  border-radius: 50px;
+  margin-top: 15px;
+  width: 200px;
+  height: 200px;
+}
+.triggerDisplay {
+  font-size: 25px;
+}
+.img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+@media (max-width: 700px) {
+  #title {
+    font-size: 25px;
+    margin: 10px;
+  }
+  #display {
+    font-size: 20px;
+  }
+  #drums {
+    width: 400px;
+  }
+  .drum-pad {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  .triggerDisplay {
+    font-size: 15px;
+  }
+  .img {
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+  }
+}
